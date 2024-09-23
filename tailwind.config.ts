@@ -9,8 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#ff6b6b',
+        secondary: '#4ecdc4',
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
       },
     },
   },

@@ -1,0 +1,11 @@
+.outer{
+    width: 1536px;
+margin: auto;
+padding: 0 100px 0 100px ;
+min-height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+/* border: 1px solid red; */
+
+}
