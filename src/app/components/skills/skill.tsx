@@ -1,6 +1,6 @@
 
 
-export default function Skills() {
+export default function Skill() {
     const skills = [
       "JavaScript", "React","NextJs", "Node.js","MongoDb","C#", "Python", "MySQL","MsSQL", "Git",
       "AWS", "Docker", "GraphQL", "TypeScript", "Next.js", "Tailwind CSS", "Spring Boot","Java","Hibernate","Angular",

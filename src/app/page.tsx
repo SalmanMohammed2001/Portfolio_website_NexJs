@@ -2,8 +2,7 @@ import About from "./components/About/About";
 import Contact from "./components/contact/Contact";
 import Hero from "./components/Hero/Hero";
 import Projects from "./components/project/project";
-import Skills from "./components/skills/Skills";
-
+import Skill from "./components/skills/skill";
 import Stringht from "./components/stringht/stringht";
 
 
@@ -13,7 +12,7 @@ export default function Home() {
       <Hero/>
       <Stringht/>
       <About/>
-      <Skills/>
+      <Skill/>
       <Projects/>
       <Contact/>
     </>
