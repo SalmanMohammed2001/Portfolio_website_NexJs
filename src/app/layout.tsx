@@ -1,5 +1,5 @@
 import './globals.css'
-import {Inter, Poppins} from 'next/font/google'
+import {Inter} from 'next/font/google'
 import NavBar from "./components/Header/NavBar";
 import Footer from './components/footer/footer';
 import React, { ReactNode } from 'react';
