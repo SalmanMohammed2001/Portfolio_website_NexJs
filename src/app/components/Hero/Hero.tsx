@@ -75,9 +75,7 @@ export default function Hero() {
 
             <div className='w-[100%]     flex flex-col gap-[40px] pt-8  items-center relative '>
                  
-                 {/* <div className={`${style.circle}`}>
-                 <Image  src={"/3d.png"} alt="" fill className={style.heroImg} sizes='100'/>
-                 </div> */}
+        
 
                  <img src="3d.jpg" alt="" className={style.heroImg} />
                  

@@ -5,34 +5,7 @@ const Stringht = () => {
 
 
 
-    const projects = [
-        {
-          title: "E-commerce Platform",
-          description: "A full-stack e-commerce solution built with React and Node.js.",
-          image: "/intro-ft-icon1.png",
-          link: "https://github.com/johndoe/ecommerce-platform"
-        },
-        {
-          title: "Task Management App",
-          description: "A React Native mobile app for managing daily tasks and schedules.",
-          image: "/intro-ft-icon2.png",
-          link: "https://github.com/johndoe/task-manager"
-        },
-        {
-          title: "Weather Dashboard",
-          description: "A weather dashboard using OpenWeatherMap API and Vue.js.",
-          image: "/intro-ft-icon3.png",
-          link: "https://github.com/johndoe/weather-dashboard"
-        },
-        {
-            title: "Weather Dashboard",
-            description: "A weather dashboard using OpenWeatherMap API and Vue.js.",
-            image: "/intro-ft-icon4.png",
-            link: "https://github.com/johndoe/weather-dashboard"
-          }
-        
-      ]
-    
+
   return (
     <section id="projects" className="py-20 bg-[#e2ecf6]">
       <div className="container  p-5  mx-auto px-6">

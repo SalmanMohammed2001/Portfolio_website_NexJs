@@ -1,13 +1,12 @@
 'use client'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { div } from 'framer-motion/client'
-import style from './about.module.css'
+
 
 
 export default function About() {
     return (
-      //  pr-80px pl-80px  xl:pl-[250px] xl:pr-[250px]
+
          <section id="about" className="py-20  w-[100vw]   ">
             <div className={` mx-auto px-6   `}>
                 <motion.div
