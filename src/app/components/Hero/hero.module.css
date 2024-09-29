@@ -253,6 +253,9 @@ font-weight: bold;
             width: 350px;
             height: 280px;
         }
+        .imageSectionContainer{
+            display: none;
+        }
 
 }
 
@@ -278,6 +281,7 @@ font-weight: bold;
             font-size: 16px;
            
             }
+      
 
             /* .heroImg{
                 width: 200px;

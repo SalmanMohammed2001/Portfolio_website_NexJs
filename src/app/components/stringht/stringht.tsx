@@ -7,7 +7,7 @@ const Stringht = () => {
 
 
   return (
-    <section id="projects" className="py-20 bg-[#e2ecf6]">
+    <section id="projects" className="py-20 bg-[#e2ecf6] border-2 w-[100vw]">
       <div className="container  p-5  mx-auto px-6">
        <div className={`  flex justify-center items-center flex-col  pl-8  md:grid   md:grid-cols-2  lg:grid-cols-3 2xl:grid-cols-4 gap-3` }>
         

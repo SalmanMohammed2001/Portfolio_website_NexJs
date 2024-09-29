@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import style from './hero.module.css'
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
@@ -76,8 +77,11 @@ export default function Hero() {
             <div className='w-[100%]     flex flex-col gap-[40px] pt-8  items-center relative '>
                  
         
-
-                 <img src="3d.jpg" alt="" className={style.heroImg} />
+ 
+                 <Image src="/3d.jpg"      alt="Sunset"    className={style.heroImg}  
+      
+        height={100}
+        width={400} />
                  
                 </div>
            </div>

@@ -84,7 +84,7 @@ export default function About() {
                            <div className=' flex flex-col justify-center '>
                            <h3 className='text-[16px]  text-[#4d4d5c] mb-2'>Mohammed Salman</h3>
                             <h3 className='text-[16px]  text-[#4d4d5c] mb-2'>23 Years</h3>
-                            {/* <h3 className='text-[16px]  text-[#4d4d5c] mb-2 border'>salmannisthar123@gmail.com</h3> */}
+                    
                             <h3 className='text-[16px]  text-[#4d4d5c] mb-2'>Full Stack Developer</h3>
                            </div>
                           </div>
@@ -123,9 +123,7 @@ export default function About() {
 
                             </li>
                         </ul>
-                        {/* <a href="#" className="inline-block bg-primary text-white px-6 py-2 rounded-full hover:bg-secondary transition-colors duration-300">
-                            Download CV
-                        </a> */}
+                    
                     </div>
                 </motion.div>
             </div>
