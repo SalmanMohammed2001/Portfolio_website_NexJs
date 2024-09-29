@@ -2,6 +2,11 @@ import './globals.css'
 import {Inter, Poppins} from 'next/font/google'
 import NavBar from "./components/Header/NavBar";
 import Footer from './components/footer/footer';
+import React, { ReactNode } from 'react';
+
+interface RootLayoutProps {
+  children: ReactNode;
+}
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -13,18 +18,18 @@ export const metadata = {
   description: 'Portfolio of John Doe, a creative developer and designer',
 }
 
-export default function RootLayout({ children }) {
-    return (
-        <html lang="en">
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
+  return (
+      <html lang="en">
+          <body className={inter.className}>
+              <div className="container">
+                  <NavBar />
+                  {children}
+                  <Footer />
+              </div>
+          </body>
+      </html>
+  );
+};
 
-        <body className={inter.className}>
-        <div className="continer">
-        <NavBar/>
-            {children}
-         <Footer/>   
-        </div>
-
-        </body>
-        </html>
-    );
-}
+export default RootLayout;

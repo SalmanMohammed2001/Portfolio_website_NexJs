@@ -3,14 +3,14 @@
 import { useEffect, useRef, useState } from 'react'
 import style from './navBar.module.css'
 import Image from 'next/image';
-import { IoIosCloseCircle, IoLogoTwitter, IoMdClose, IoMdCloseCircleOutline } from 'react-icons/io';
+import { IoIosCloseCircle, IoLogoTwitter } from 'react-icons/io';
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 
 export default function NavBar() {
 
 
-    const headerRef = useRef(null);
+    const headerRef =  useRef<HTMLDivElement>(null); 
 
     const[open,setOpen]=useState(false);
 

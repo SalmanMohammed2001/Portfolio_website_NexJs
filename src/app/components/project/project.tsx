@@ -19,6 +19,12 @@ export default function Projects() {
       description: "A weather dashboard using OpenWeatherMap API and Vue.js.",
       image: "/project-images/project3.jpg",
       link: "https://github.com/johndoe/weather-dashboard"
+    },
+    {
+      title: "Weather Dashboard",
+      description: "A weather dashboard using OpenWeatherMap API and Vue.js.",
+      image: "/project-images/project3.jpg",
+      link: "https://github.com/johndoe/weather-dashboard"
     }
   ]
 

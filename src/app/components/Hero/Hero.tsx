@@ -1,7 +1,7 @@
 'use client'
-import { motion } from 'framer-motion'
+
 import style from './hero.module.css'
-import Image from 'next/image'
+
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { IoLogoTwitter } from 'react-icons/io'
 
