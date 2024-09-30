@@ -8,7 +8,7 @@ export default function Skill() {
     ]
   
     return (
-      <section id="skills" className="py-20  p-5 ">
+      <section id="skills" className="py-20  p-5  w-[100vw] ">
         <div className="container mx-auto px-6 ">
           <h2 className="text-3xl font-bold text-center mb-8">Skills</h2>
           <div className="flex flex-wrap justify-center gap-4">

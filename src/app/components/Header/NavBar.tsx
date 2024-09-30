@@ -59,7 +59,7 @@ export default function NavBar() {
 
                 <div className='w-[100%] h-[100%] gap-[50px] flex items-center justify-center flex-col' onClick={()=>setOpen((pre)=>!pre)}>   
 
-                <ul className={`flex gap-[40px] text-lg items-center justify-center flex-col  `}>
+                <ul className={`flex gap-[40px] text-lg items-center justify-center flex-col  transition-all duration-300 ease-in-out `}>
               <li><a href="#about" className="text-white">About</a></li>
               <li><a href="#skills" className="text-white">Skills</a></li>
               <li><a href="#skills" className="text-white ">Education</a></li>
