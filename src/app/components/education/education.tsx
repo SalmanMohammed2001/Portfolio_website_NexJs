@@ -4,7 +4,7 @@ import React from 'react'
 const Education = () => {
   return (
     <section id="projects" className="py-20  w-[100vw] relative">
-        <div className="  border-2   mx-auto   flex flex-col   lg:flex-row  container lg:max-w-[100%]  gap-[80px]  ">
+        <div className="    mx-auto   flex flex-col   lg:flex-row  container lg:max-w-[100%]  gap-[80px]  ">
 
           
 
