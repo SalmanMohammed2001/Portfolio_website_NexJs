@@ -7,11 +7,11 @@ const Stringht = () => {
 
 
   return (
-    <section id="projects" className="py-20 bg-[#e2ecf6] border-2 w-[100vw]">
+    <section id="projects" className="py-20 bg-[#e2ecf6]  w-[100vw]  border-2  border-black">
       <div className="container  p-5  mx-auto px-6">
-       <div className={`  flex justify-center items-center flex-col  pl-8  md:grid   md:grid-cols-2  lg:grid-cols-3 2xl:grid-cols-4 gap-3` }>
+       <div className={`  flex justify-center items-start flex-col  pl-8  md:grid   md:grid-cols-2  lg:grid-cols-3 2xl:grid-cols-4 gap-3` }>
         
-        <div className={`${style.inner_dive} bg-white  flex  items-center shadow-md  p-3`}>
+        <div className={`${style.inner_dive} bg-white  flex  items-center shadow-md  p-3 border-2  border-black`}>
        <div className='flex flex-col    gap-[30px]' >
        <Image
                 src={'/intro-ft-icon1.png'}
