@@ -47,7 +47,7 @@ export default function NavBar() {
             <a className='py-[10px] px-[18px] border border-green-400 text-white text-sm rounded-md cursor-pointer hover:bg-green-400'>DOWNLOAD CV</a>
       </nav>
     
-      <Image  alt='menu' className={style.menuMutton}src={'/menu.png'} width={30} height={30} onClick={()=>setOpen((pre)=>!pre)}/>
+      <Image  alt='menu' className={style.menuMutton}src={'/menu.png'} width={20} height={30} onClick={()=>setOpen((pre)=>!pre)}/>
 
 
             {
@@ -57,7 +57,7 @@ export default function NavBar() {
                 <IoIosCloseCircle  className={style.closeButton}  onClick={()=>setOpen((pre)=>!pre)}/>
                 </div>
 
-                <div className='w-[100%] h-[100%] gap-[50px] flex items-center justify-center flex-col'>   
+                <div className='w-[100%] h-[100%] gap-[50px] flex items-center justify-center flex-col' onClick={()=>setOpen((pre)=>!pre)}>   
 
                 <ul className={`flex gap-[40px] text-lg items-center justify-center flex-col  `}>
               <li><a href="#about" className="text-white">About</a></li>
