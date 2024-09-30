@@ -247,12 +247,12 @@ font-weight: bold;
         }
 
         .heroImg{
-            width: 350px;
+            width: 450px;
             height: 280px;
         }
-        .imageSectionContainer{
+        /* .imageSectionContainer{
             display: none;
-        }
+        } */
 
 }
 

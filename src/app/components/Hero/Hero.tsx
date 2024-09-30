@@ -78,7 +78,7 @@ export default function Hero() {
                  
         
  
-                 <Image src="/3d.jpg"      alt="Sunset"    className={style.heroImg}  
+                 <Image src="/ct.png"      alt="Sunset"    className={style.heroImg}    
       
         height={100}
         width={400} />
