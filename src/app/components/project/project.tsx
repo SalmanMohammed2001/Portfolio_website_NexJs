@@ -29,14 +29,14 @@ export default function Projects() {
   ]
 
   return (
-    <section id="projects" className="py-20 bg-[#25262f] border border-gray-950 w-[100vw] relative">
+    <section id="projects" className="py-20 bg-[#25262f]  w-[100vw] relative ">
 
     <div>
       <Image src="/fact-icon2.png" alt='' width={200} height={200} className='absolute top-[-150px]'/>
     </div>
 
     <div>
-      <Image src="/fact-icon2.png" alt='' width={200} height={200} className='absolute bottom-[-100px] right-0'/>
+      <Image src="/fact-icon2.png" alt='' width={200} height={200} className='absolute bottom-[-100px] ri'/>
     </div>
       <div className="container    mx-auto px-6">
         <h2 className="text-3xl font-bold text-center  mb-8 text-white">My Recent Works</h2>
